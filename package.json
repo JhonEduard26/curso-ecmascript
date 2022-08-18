@@ -1,0 +1,9 @@
+{
+  "name": "curso-ecmascript",
+  "version": "1.0.0",
+  "description": "curso ecmascript, historia y versiones de javacript",
+  "main": "index.js",
+  "repository": "git@github.com:JhonEduard26/curso-ecmascript.git",
+  "author": "Jhon Eduard Bocanegra <jhon.bocanegra26@gmail.com>",
+  "license": "MIT"
+}
