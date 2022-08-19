@@ -10,3 +10,23 @@ let user = {
 }
 let { age, username } = user
 console.log(username, age)
+
+// spread operator
+
+let person = {
+  name: 'Jhon',
+  age: 23
+}
+let country = 'MX'
+
+let data = {
+  ...person,
+  country,
+}
+console.log(data)
+
+function sum(num, ...values) {
+  console.log(values)
+}
+
+sum(1, 32, 123, 1213, 123, 11, 175, 7878, 78, 787)
